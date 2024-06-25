@@ -15,8 +15,24 @@ Resourceful and beginner front-end developer, 1 year of experience. Passionate t
 ## Skills
 
 - Ability to work with front-end development.
-- Work experience with HTML, CSS, JavaScript.
+- Work experience with HTML, CSS(BEM), JavaScript.
+- Git/GitHub.
 - Analytical mind and problem solving skills.
+
+## Code Examples
+
+```javascript
+const mixArray = [7, 'Егор', 'Илья', 36, 17, 'Анна', 'Дмитрий', 88, 42, 'Федор']
+
+const numberArray = mixArray
+	.filter(num => typeof num === 'number')
+	.sort((a, b) => a - b)
+
+const stringArray = mixArray.filter(str => typeof str === 'string').sort()
+
+console.log(numberArray)
+console.log(stringArray)
+```
 
 ## Education
 
