@@ -3,7 +3,265 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>CV</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
-	<body></body>
+	<body>
+		<header class="header container">
+			<nav class="header__nav">
+				<ul class="header__list">
+					<li class="header__item">
+						<a href="#about-me" class="header__link">About me</a>
+					</li>
+					<li class="header__item">
+						<a href="#education" class="header__link">Education</a>
+					</li>
+					<li class="header__item">
+						<a href="#experience" class="header__link">Experience</a>
+					</li>
+					<li class="header__item">
+						<a href="#follow-me" class="header__link">Follow me</a>
+					</li>
+					<li class="header__item">
+						<a href="#tech-skills" class="header__link">Tech skills</a>
+					</li>
+					<li class="header__item">
+						<a href="#languages" class="header__link">Languages</a>
+					</li>
+					<li class="header__item">
+						<a href="#contact" class="header__link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="main container">
+			<section class="left-side">
+				<div class="info">
+					<img class="info__photo" src="img/foto.jpg" alt="photo" />
+					<h1 class="info__heading">
+						Andrey&nbsp;<br />
+						<span class="first-name">Mirzoev</span>
+					</h1>
+					<span class="line"></span>
+					<p class="info__profession">Front-end development</p>
+				</div>
+
+				<div class="info__blocks">
+					<div class="info__block" id="contact">
+						<h2 class="info__title">contact</h2>
+						<ul class="info__list">
+							<li class="info__item">
+								<span class="info__icon address"></span>
+								<a href="#" class="info__link">Moscow, Russia</a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon mail"></span>
+								<a href="#" class="info__link">https://agmirzoev.ru</a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon syte"></span>
+								<a href="mailto:mirzoag@gmail.com" class="info__link">
+									mirzoag@gmail.com
+								</a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon phone"></span>
+								<a href="tel:+79260008151" class="info__link">+7(926)0008151</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="info__block" id="follow-me">
+						<h2 class="info__title">follow me</h2>
+						<ul class="info__list">
+							<li class="info__item">
+								<span class="info__icon linked"></span>
+								<a href="https://ru.linkedin.com/" class="info__link">
+									linkedin.com/agmirzoev
+								</a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon twitter"></span>
+								<a href="https://x.com" class="info__link">
+									twitter.com/agmirzoev
+								</a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon git"></span>
+								<a href="https://github.com/AGMirzoev" class="info__link">
+									github.com/agmirzoev
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="info__block" id="tech-skills">
+						<h2 class="info__title">tech skills</h2>
+						<ul class="info__list">
+							<li class="info__item">
+								<span class="info__icon javascript"></span>
+								<a href="#" class="info__link">JavaScript</a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon react"></span>
+								<a href="#" class="info__link">React.js</a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon html-css"></span>
+								<a href="#" class="info__link"> HTML/CSS </a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon github"></span>
+								<a href="#" class="info__link"> Git/GitHub </a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon figma"></span>
+								<a href="#" class="info__link"> Figma </a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="info__block" id="languages">
+						<h2 class="info__title">languages</h2>
+						<ul class="info__list">
+							<li class="info__item">
+								<span class="info__icon russia"></span>
+								<a href="#" class="info__link">Mother tongue</a>
+							</li>
+							<li class="info__item">
+								<span class="info__icon english"></span>
+								<a href="#" class="info__link">Elementary</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="right-side">
+				<div class="block" id="about-me">
+					<div class="block__top-side">
+						<span class="block__icon about-me"></span>
+						<h2 class="title">About me</h2>
+					</div>
+					<p class="subtitle">
+						I am 36 years old, I work as a rescue firefighter at the airport. I
+						think that my real work will sooner or later lead me to degradation.
+						I need a field of activity where I can develop throughout my life.
+						That's why I'm here. My goal is to gain knowledge in the field of
+						front-end development.
+					</p>
+				</div>
+
+				<div class="block" id="education">
+					<div class="block__top-side">
+						<span class="block__icon education"></span>
+						<h2 class="title">Education</h2>
+					</div>
+					<div class="education__block">
+						<span class="school-name">School Name 1</span>
+						<span class="period">Sep 2005 - May 2012</span>
+						<p class="subtitle">
+							State Autonomous Professional Educational Institution of the
+							Moscow Region “Vocational College “Moscovia”
+						</p>
+					</div>
+					<div class="education__block">
+						<span class="school-name">School Name 2</span>
+						<span class="period">Jun 2008 - May 2012</span>
+						<p class="subtitle">Moscow Institute of Humanities and Economics</p>
+					</div>
+				</div>
+
+				<div class="block" id="experience">
+					<div class="block__top-side">
+						<span class="block__icon experience"></span>
+						<h2 class="title">Experience</h2>
+					</div>
+					<div class="experience__block">
+						<span class="work-name">Work Name 1</span>
+						<span class="period">Mar 2014 - Apr 2015</span>
+						<p class="subtitle">Fire prevention team engineer</p>
+					</div>
+					<div class="experience__block">
+						<span class="work-name">Work Name 2</span>
+						<span class="period">Apr 2015 - Sep 2019</span>
+						<p class="subtitle">
+							STATE PUBLIC INSTITUTION OF THE MOSCOW REGION "MOSCOW REGIONAL
+							FIRE AND RESCUE SERVICE"
+						</p>
+					</div>
+					<div class="experience__block">
+						<span class="work-name">Work Name 3</span>
+						<span class="period">Oct 2019 - Aug 2021</span>
+						<p class="subtitle">
+							Ministry of the Russian Federation for Civil Defense, Emergency
+							Situations and Disaster Relief (EMERCOM of Russia)
+						</p>
+					</div>
+					<div class="experience__block">
+						<span class="work-name">Work Name 4</span>
+						<span class="period">Nov 2021</span>
+						<p class="subtitle">
+							Employee of the fire and rescue service of Moscow Domodedovo
+							Airport
+						</p>
+					</div>
+				</div>
+
+				<div class="block">
+					<div class="block__top-side">
+						<span class="block__icon code"></span>
+						<h2 class="title">Code Examples</h2>
+					</div>
+					<div class="code__block">
+						<code>
+							const mixArray = [7, 'Егор', 'Илья', 36, 17, 'Анна', 'Дмитрий',
+							88, 42, 'Федор'] <br /><br />
+							const numberArray = mixArray .filter(num => typeof num ===
+							'number') .sort((a, b) => a - b) <br /><br />
+							const stringArray = mixArray.filter(str => typeof str ===
+							'string').sort() <br /><br />
+							console.log(numberArray) <br />
+							console.log(stringArray)
+						</code>
+					</div>
+				</div>
+
+				<div class="block">
+					<div class="block__top-side">
+						<span class="block__icon hobbies"></span>
+						<h2 class="title">Hobbies</h2>
+					</div>
+					<div class="hobbies__block">
+						<p class="subtitle">
+							Photography · Music Play Guitar · Play Soccer Travel · Cooking
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<nav class="footer__nav">
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a
+							class="footer__logo"
+							href="https://rs.school/courses/javascript-preschool-ru"
+						></a>
+					</li>
+					<li class="footer__item">
+						<spam class="footer__text">2024</spam>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="https://github.com/AGMirzoev">
+							AGMirzoev
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
 </html>
